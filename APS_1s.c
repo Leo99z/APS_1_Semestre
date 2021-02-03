@@ -27,7 +27,7 @@ int main()
 		    printf("8 - Total de elementos válidos \n");
 		    printf("9 - Sair \n");
 		    printf("==========================================\n");
-		    printf("Escolha a op��o: ");
+		    printf("Escolha a opção: ");
 		    scanf("%i", &menu);
 
 		    srand(time(NULL));
@@ -65,30 +65,30 @@ int main()
 			                    printf(" Escolha de vetor \n");
 			                    printf("Digite 1 para o Vetor 1 \n");
 			                    printf("Digite 2 para o Vetor 2 \n");
-			                    printf("\nEscolha a op��o: ");
+			                    printf("\nEscolha a opção: ");
 			                    scanf("%i", &escolha);
 			            }
 			            while(escolha <= 0 || escolha >= 3);
 			            if(escolha == 1){
-			                printf("Escolha a posi��o do vetor: ");
+			                printf("Escolha a posisão do vetor: ");
 			                scanf("%i", &posicao);
 			                if((vetor1[posicao] == 0) || (posicao < 0 || posicao >= 7)){
 			                        printf("\nERRO!!!\n");
 			                }
 			                else{
 			                        vetor1[posicao] = 0;
-			                        printf("\nOpera��o realizada com sucesso!\n");
+			                        printf("\nOperação realizada com sucesso!\n");
 			                        }
 			                    }
 			                    else{
-                                        printf("Escolha a posi��o do vetor: ");
+                                        printf("Escolha a posisão do vetor: ");
 			                            scanf("%i", &posicao);
                                 if((vetor2[posicao] == 0) || (posicao < 0 || posicao >= 7)){
                                         printf("\nERRO!!!\n");
                                 }
 			                    else{
                                         vetor2[posicao] = 0;
-			                            printf("\nOpera��o realizada com sucesso!\n");
+			                            printf("\nOperação realizada com sucesso!\n");
 			                            }
 			                        }
 			                    break;
@@ -106,7 +106,7 @@ int main()
 			        								if(valor == vetor1[j])
 			        									{
 			        										acc = acc + 1;
-			        										printf("\nO valor %i est� localizado na posi��o %i do Vetor 1\n", valor,j+1);//informa a localiza��o no vetor1 do n�mero informado
+			        										printf("\nO valor %i está localizado na posição %i do Vetor 1\n", valor,j+1);//informa a localiza��o no vetor1 do n�mero informado
 			        									}
 												}
 											else
@@ -114,7 +114,7 @@ int main()
 													if(valor == vetor2[j])
 			        									{
 			        										acc= acc + 1;
-			        										printf("\nO valor %i est� localizado na posi��o %i do Vetor 2\n",valor,j+1); //informa a localiza��o no vetor2 do n�mero informado
+			        										printf("\nO valor %i está localizado na posição %i do Vetor 2\n",valor,j+1); //informa a localiza��o no vetor2 do n�mero informado
 			        									}
 												}
 										}
